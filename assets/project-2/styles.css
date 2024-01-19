@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Montserrat&family=Poppins:wght@500;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right bottom,blue,blueviolet);
+    border-radius: 8px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.addidas_website{
+    background-color: white;
+    height: fit-content;
+    width: fit-content;
+    padding: 4em;
+    margin: auto;
+    border-radius: 12px;
+}
+.logo img{
+    height: 45px;
+    width: 45px;
+}
+.addidas h3{
+    font-family: 'montserrat';
+}
+.addidas p{
+    padding-top: 4px;
+}
+.addidas img{
+    width: 300px;
+    height: 200px;
+}
+.colours{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4em;
+}
+.left{
+    display: flex;
+    gap: 5px;
+}
+.blue{
+    background-color: blue;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+.pink{
+    background-color: rgba(219, 31, 62, 0.927);
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    outline-offset: 2px;
+    outline: 1px solid  rgba(219, 31, 62, 0.927);
+}
+.yellow{
+    background-color: yellow;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+.right{
+    font-family: 'montserrat';
+    font-size: 25px;
+}
+.right p{
+    font-size: 12px;
+}
+
+button{
+    background: linear-gradient(to right,blue,blueviolet);
+    padding: 12px;
+    color: white;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 2em;
+    width: 100%;
+}
